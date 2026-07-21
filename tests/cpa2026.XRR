@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<SailingXRR Version="1.0" Type="Inscriptions" Date="2026-02-02">
+  <Person PersonID="P_S_1" FamilyName="PARFENENKO" GivenName="Sergey" NOC="EST" FFVLicenseNumber="ESTSP5"/>
+  <Person PersonID="P_S_2" FamilyName="RECHARDT" GivenName="Lauri" NOC="FIN" FFVLicenseNumber="Xxx"/>
+  <Person PersonID="P_S_3" FamilyName="BORENIUS" GivenName="Christian" NOC="FIN" FFVLicenseNumber="FINCB2"/>
+  <Person PersonID="P_S_4" FamilyName="SJOBERG" GivenName="Kristian" NOC="FIN" FFVLicenseNumber="na"/>
+  <Person PersonID="P_S_5" FamilyName="LINDGREN" GivenName="Jouko" NOC="FIN" FFVLicenseNumber="NA"/>
+  <Person PersonID="P_S_6" FamilyName="BLANC" GivenName="Gerard" NOC="FRA" FFVLicenseNumber="0514306L"/>
+  <Person PersonID="P_S_7" FamilyName="JAMES" GivenName="RON" NOC="GBR" FFVLicenseNumber="0"/>
+  <Person PersonID="P_S_8" FamilyName="ATKINSON" GivenName="david" NOC="GBR" FFVLicenseNumber="GBRDA6"/>
+  <Person PersonID="P_S_9" FamilyName="SCHMITT" GivenName="Roman" NOC="GER" FFVLicenseNumber="???"/>
+  <Person PersonID="P_S_10" FamilyName="MURPHY" GivenName="Daniel" NOC="IRL" FFVLicenseNumber="lRLDM85"/>
+  <Person PersonID="P_S_11" FamilyName="BOPP" GivenName="Franois" NOC="SUI" FFVLicenseNumber="15744"/>
+  <Boat BoatID="B_EST18_1" BoatName="Lark" SailNumber="EST18" BoatModel="Dragon"/>
+  <Boat BoatID="B_FIN63_2" BoatName="Nenya" SailNumber="FIN63" BoatModel="Dragon"/>
+  <Boat BoatID="B_FIN85_3" BoatName="Thouban" SailNumber="FIN85" BoatModel="Dragon"/>
+  <Boat BoatID="B_FIN95_4" BoatName="Emmy" SailNumber="FIN95" BoatModel="Dragon"/>
+  <Boat BoatID="B_FIN97_5" BoatName="Genewave" SailNumber="FIN97" BoatModel="Dragon"/>
+  <Boat BoatID="B_FRA409_6" BoatName="Tsuica" SailNumber="FRA409" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR633_7" BoatName="FEI-LIN'S FLIRTATION" SailNumber="GBR633" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR830_8" BoatName="Outlaw" SailNumber="GBR830" BoatModel="Dragon"/>
+  <Boat BoatID="B_GER1253_9" BoatName="White Princess" SailNumber="GER1253" BoatModel="Dragon"/>
+  <Boat BoatID="B_IRL226_10" BoatName="FORTITUDE" SailNumber="IRL226" BoatModel="Dragon"/>
+  <Boat BoatID="B_SUI2_11" BoatName="CHOCOLATE" SailNumber="SUI2" BoatModel="Dragon"/>
+  <Event CoID="0" EpID="1">
+    <Team BoatID="B_EST18_1" NOC="EST">
+      <Crew PersonID="P_S_1" Position="S"/>
+    </Team>
+    <Team BoatID="B_FIN63_2" NOC="FIN">
+      <Crew PersonID="P_S_2" Position="S"/>
+    </Team>
+    <Team BoatID="B_FIN85_3" NOC="FIN">
+      <Crew PersonID="P_S_3" Position="S"/>
+    </Team>
+    <Team BoatID="B_FIN95_4" NOC="FIN">
+      <Crew PersonID="P_S_4" Position="S"/>
+    </Team>
+    <Team BoatID="B_FIN97_5" NOC="FIN">
+      <Crew PersonID="P_S_5" Position="S"/>
+    </Team>
+    <Team BoatID="B_FRA409_6" NOC="FRA">
+      <Crew PersonID="P_S_6" Position="S"/>
+    </Team>
+    <Team BoatID="B_GBR633_7" NOC="GBR">
+      <Crew PersonID="P_S_7" Position="S"/>
+    </Team>
+    <Team BoatID="B_GBR830_8" NOC="GBR">
+      <Crew PersonID="P_S_8" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER1253_9" NOC="GER">
+      <Crew PersonID="P_S_9" Position="S"/>
+    </Team>
+    <Team BoatID="B_IRL226_10" NOC="IRL">
+      <Crew PersonID="P_S_10" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI2_11" NOC="SUI">
+      <Crew PersonID="P_S_11" Position="S"/>
+    </Team>
+  </Event>
+</SailingXRR>

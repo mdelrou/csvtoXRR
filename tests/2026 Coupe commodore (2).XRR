@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<SailingXRR Version="1.0" Type="Inscriptions" Date="2026-04-02">
+  <Person PersonID="P_S_1" FamilyName="VAN CAUWENBERGH" GivenName="Ben" NOC="FRA" FFVLicenseNumber="1"/>
+  <Person PersonID="P_C1_1" FamilyName="REIJNHOUD" GivenName="Marc" NOC="FRA" FFVLicenseNumber="b"/>
+  <Person PersonID="P_RC_1_0" FamilyName="TEN HARMSEN VAN DER BEEK" GivenName="Pim" NOC="FRA"/>
+  <Person PersonID="P_S_2" FamilyName="BROEN" GivenName="lars" NOC="FRA"/>
+  <Person PersonID="P_C1_2" FamilyName="LASSEN" GivenName="anders" NOC="FRA"/>
+  <Person PersonID="P_RC_2_0" FamilyName="DRESLER PEDERSEN" GivenName="Thomas" NOC="FRA"/>
+  <Person PersonID="P_S_3" FamilyName="PARFENENKO" GivenName="Sergey" NOC="FRA"/>
+  <Person PersonID="P_C1_3" FamilyName="STATSENKO" GivenName="Vadim" NOC="FRA"/>
+  <Person PersonID="P_RC_3_0" FamilyName="ORLOV" GivenName="Igor" NOC="FRA"/>
+  <Person PersonID="P_S_4" FamilyName="JUNGELL" GivenName="Tom" NOC="FRA"/>
+  <Person PersonID="P_C1_4" FamilyName="MANNSTRÖM" GivenName="Markus" NOC="FRA"/>
+  <Person PersonID="P_RC_4_0" FamilyName="RANTALA" GivenName="Jaakko" NOC="FRA"/>
+  <Person PersonID="P_S_5" FamilyName="BLANC" GivenName="Gerard" NOC="FRA" FFVLicenseNumber="0514306L"/>
+  <Person PersonID="P_C1_5" FamilyName="CHARTON" GivenName="Jean Gabriel" NOC="FRA" FFVLicenseNumber="0177414G"/>
+  <Person PersonID="P_RC_5_0" FamilyName="BOUAULT" GivenName="Bruno" NOC="FRA"/>
+  <Person PersonID="P_S_6" FamilyName="CAPELA" GivenName="Vincent" NOC="FRA" FFVLicenseNumber="0952122U"/>
+  <Person PersonID="P_C1_6" FamilyName="GIGNOUX" GivenName="Claude" NOC="FRA" FFVLicenseNumber="0758760"/>
+  <Person PersonID="P_RC_6_0" FamilyName="CHAUVET" GivenName="Jacques" NOC="FRA"/>
+  <Person PersonID="P_S_7" FamilyName="BRADBURY" GivenName="Ivan" NOC="FRA"/>
+  <Person PersonID="P_C1_7" FamilyName="LEONCHUK" GivenName="George" NOC="FRA"/>
+  <Person PersonID="P_RC_7_0" FamilyName="HENDRIKSEN" GivenName="Lars" NOC="FRA"/>
+  <Person PersonID="P_S_8" FamilyName="BONDARENKO" GivenName="Dmitry" NOC="FRA"/>
+  <Person PersonID="P_C1_8" FamilyName="SHALAGIN" GivenName="Alexander" NOC="FRA"/>
+  <Person PersonID="P_RC_8_0" FamilyName="MURASHKIN" GivenName="Aleksei" NOC="FRA"/>
+  <Person PersonID="P_S_9" FamilyName="JAMES" GivenName="Ron" NOC="FRA"/>
+  <Person PersonID="P_C1_9" FamilyName="CATMUR" GivenName="PHILIP" NOC="FRA"/>
+  <Person PersonID="P_RC_9_0" FamilyName="JAMIE" GivenName="LEA" NOC="FRA"/>
+  <Person PersonID="P_S_10" FamilyName="DIEDERICHS" GivenName="Klaus" NOC="FRA"/>
+  <Person PersonID="P_C1_10" FamilyName="SCOTT" GivenName="Rory" NOC="FRA"/>
+  <Person PersonID="P_RC_10_0" FamilyName="WESTERDAHL" GivenName="MARTIN" NOC="FRA"/>
+  <Person PersonID="P_S_11" FamilyName="ATKINSON" GivenName="david" NOC="FRA"/>
+  <Person PersonID="P_C1_11" FamilyName="ALLEN" GivenName="john" NOC="FRA"/>
+  <Person PersonID="P_RC_11_0" FamilyName="RANSOM" GivenName="sandra" NOC="FRA"/>
+  <Person PersonID="P_S_12" FamilyName="BYRNE" GivenName="Martin" NOC="FRA" FFVLicenseNumber="000"/>
+  <Person PersonID="P_C1_12" FamilyName="SIMMS" GivenName="John" NOC="FRA" FFVLicenseNumber="000"/>
+  <Person PersonID="P_RC_12_0" FamilyName="WINKELMANN" GivenName="Adam" NOC="FRA"/>
+  <Person PersonID="P_S_13" FamilyName="MURPHY" GivenName="Daniel" NOC="FRA"/>
+  <Person PersonID="P_C1_13" FamilyName="O'CONNOR" GivenName="John" NOC="FRA"/>
+  <Person PersonID="P_RC_13_0" FamilyName="MURPHY CAMERON GOOD" GivenName="Sean" NOC="FRA"/>
+  <Person PersonID="P_S_14" FamilyName="QUARANTA" GivenName="Mario" NOC="FRA"/>
+  <Person PersonID="P_C1_14" FamilyName="BORTOLETTO" GivenName="Davide" NOC="FRA"/>
+  <Person PersonID="P_RC_14_0" FamilyName="QUARANTA" GivenName="Andrea" NOC="FRA"/>
+  <Person PersonID="P_S_15" FamilyName="OLDENBURG" GivenName="Dirk" NOC="FRA"/>
+  <Person PersonID="P_C1_15" FamilyName="ZYCKI" GivenName="Dominik" NOC="FRA"/>
+  <Person PersonID="P_RC_15_0" FamilyName="ANDRADE" GivenName="Pedro" NOC="FRA"/>
+  <Person PersonID="P_S_16" FamilyName="SKIPPER GBR408" GivenName="Inconnu" NOC="FRA"/>
+  <Boat BoatID="B_BEL80_1" SailNumber="BEL 80" BoatName="AnnAmaii" BoatModel="Dragon"/>
+  <Boat BoatID="B_DEN395_2" SailNumber="DEN 395" BoatName="Norbert" BoatModel="Dragon"/>
+  <Boat BoatID="B_EST18_3" SailNumber="EST 18" BoatName="Lark" BoatModel="Dragon"/>
+  <Boat BoatID="B_FIN63_4" SailNumber="FIN 63" BoatName="Nenya" BoatModel="Dragon"/>
+  <Boat BoatID="B_FRA409_5" SailNumber="FRA 409" BoatName="Tsuica" BoatModel="Dragon"/>
+  <Boat BoatID="B_FRA432_6" SailNumber="FRA 432" BoatName="Coyote" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR375_7" SailNumber="GBR 375" BoatName="Blue Haze" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR408_8" SailNumber="GBR 408" BoatName="Johanna" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR633_9" SailNumber="GBR 633" BoatName="FEI-LIN'S FLIRTATION" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR819_10" SailNumber="GBR 819" BoatName="FEVER" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR830_11" SailNumber="GBR 830" BoatName="Outlaw" BoatModel="Dragon"/>
+  <Boat BoatID="B_IRL201_12" SailNumber="IRL 201" BoatName="Jaguar Sailing Team" BoatModel="Dragon"/>
+  <Boat BoatID="B_IRL226_13" SailNumber="IRL 226" BoatName="FORTITUDE" BoatModel="Dragon"/>
+  <Boat BoatID="B_ITA80_14" SailNumber="ITA 80" BoatName="6 Diva" BoatModel="Dragon"/>
+  <Boat BoatID="B_SUI313_15" SailNumber="SUI 313" BoatName="FREE" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR408_16" SailNumber="GBR 408" BoatName="BATEAU GBR 408" BoatModel="SUPPORT VESSEL"/>
+  <Event CoID="137538" EpID="286791">
+    <Team BoatID="B_BEL80_1" NOC="FRA">
+      <Crew PersonID="P_S_1" Position="S"/>
+      <Crew PersonID="P_C1_1" Position="C"/>
+      <Crew PersonID="P_RC_1_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_DEN395_2" NOC="FRA">
+      <Crew PersonID="P_S_2" Position="S"/>
+      <Crew PersonID="P_C1_2" Position="C"/>
+      <Crew PersonID="P_RC_2_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_EST18_3" NOC="FRA">
+      <Crew PersonID="P_S_3" Position="S"/>
+      <Crew PersonID="P_C1_3" Position="C"/>
+      <Crew PersonID="P_RC_3_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_FIN63_4" NOC="FRA">
+      <Crew PersonID="P_S_4" Position="S"/>
+      <Crew PersonID="P_C1_4" Position="C"/>
+      <Crew PersonID="P_RC_4_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_FRA409_5" NOC="FRA">
+      <Crew PersonID="P_S_5" Position="S"/>
+      <Crew PersonID="P_C1_5" Position="C"/>
+      <Crew PersonID="P_RC_5_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_FRA432_6" NOC="FRA">
+      <Crew PersonID="P_S_6" Position="S"/>
+      <Crew PersonID="P_C1_6" Position="C"/>
+      <Crew PersonID="P_RC_6_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_GBR375_7" NOC="FRA">
+      <Crew PersonID="P_S_7" Position="S"/>
+      <Crew PersonID="P_C1_7" Position="C"/>
+      <Crew PersonID="P_RC_7_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_GBR408_8" NOC="FRA">
+      <Crew PersonID="P_S_8" Position="S"/>
+      <Crew PersonID="P_C1_8" Position="C"/>
+      <Crew PersonID="P_RC_8_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_GBR633_9" NOC="FRA">
+      <Crew PersonID="P_S_9" Position="S"/>
+      <Crew PersonID="P_C1_9" Position="C"/>
+      <Crew PersonID="P_RC_9_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_GBR819_10" NOC="FRA">
+      <Crew PersonID="P_S_10" Position="S"/>
+      <Crew PersonID="P_C1_10" Position="C"/>
+      <Crew PersonID="P_RC_10_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_GBR830_11" NOC="FRA">
+      <Crew PersonID="P_S_11" Position="S"/>
+      <Crew PersonID="P_C1_11" Position="C"/>
+      <Crew PersonID="P_RC_11_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_IRL201_12" NOC="FRA">
+      <Crew PersonID="P_S_12" Position="S"/>
+      <Crew PersonID="P_C1_12" Position="C"/>
+      <Crew PersonID="P_RC_12_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_IRL226_13" NOC="FRA">
+      <Crew PersonID="P_S_13" Position="S"/>
+      <Crew PersonID="P_C1_13" Position="C"/>
+      <Crew PersonID="P_RC_13_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_ITA80_14" NOC="FRA">
+      <Crew PersonID="P_S_14" Position="S"/>
+      <Crew PersonID="P_C1_14" Position="C"/>
+      <Crew PersonID="P_RC_14_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_SUI313_15" NOC="FRA">
+      <Crew PersonID="P_S_15" Position="S"/>
+      <Crew PersonID="P_C1_15" Position="C"/>
+      <Crew PersonID="P_RC_15_0" Position="C"/>
+    </Team>
+    <Team BoatID="B_GBR408_16" NOC="FRA">
+      <Crew PersonID="P_S_16" Position="S"/>
+    </Team>
+  </Event>
+</SailingXRR>

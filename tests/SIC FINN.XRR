@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<SailingXRR Version="1.0" Type="Inscriptions" Date="2026-02-16">
+  <Person PersonID="P_S_1" FamilyName="BOURBIN" GivenName="pierric" NOC="BAH" FFVLicenseNumber="0139040J" BirthDate="1954-06-14"/>
+  <Person PersonID="P_S_2" FamilyName="DELAVA" GivenName="Tony" NOC="BEL" BirthDate="1963-03-15"/>
+  <Person PersonID="P_S_3" FamilyName="VAN DEN BRANDE" GivenName="Jelle" NOC="BEL" FFVLicenseNumber="Bel 45" BirthDate="1979-02-09"/>
+  <Person PersonID="P_S_4" FamilyName="GOOSSENS" GivenName="Paul" NOC="BEL" BirthDate="1959-01-07"/>
+  <Person PersonID="P_S_5" FamilyName="GODERIS" GivenName="Jan" NOC="BEL" BirthDate="1963-10-17"/>
+  <Person PersonID="P_S_6" FamilyName="HALL" GivenName="Lars" NOC="DEN" BirthDate="1960-07-06"/>
+  <Person PersonID="P_S_7" FamilyName="SERRA MERCKENS" GivenName="Rubén" NOC="ESP" BirthDate="1965-05-15"/>
+  <Person PersonID="P_S_8" FamilyName="SJOBERG" GivenName="Kristian" NOC="FIN" BirthDate="1962-03-23"/>
+  <Person PersonID="P_S_9" FamilyName="LE CHATELIER" GivenName="Pierre" NOC="FRA" FFVLicenseNumber="0597817B" BirthDate="1959-01-11"/>
+  <Person PersonID="P_S_10" FamilyName="GOT" GivenName="Claude" NOC="FRA" FFVLicenseNumber="0536694G" BirthDate="1954-11-03"/>
+  <Person PersonID="P_S_11" FamilyName="BOURBIN" GivenName="Morvan" NOC="FRA" FFVLicenseNumber="0506071H" BirthDate="1988-06-20"/>
+  <Person PersonID="P_S_12" FamilyName="CUTUGNO" GivenName="Jean Francois" NOC="FRA" FFVLicenseNumber="0618837X" BirthDate="1959-10-24"/>
+  <Person PersonID="P_S_13" FamilyName="CLAUDEL" GivenName="BERNARD" NOC="FRA" FFVLicenseNumber="0598911R" BirthDate="1951-06-02"/>
+  <Person PersonID="P_S_14" FamilyName="BENOÎT" GivenName="Thomas" NOC="FRA" FFVLicenseNumber="0354064S" BirthDate="1986-01-21"/>
+  <Person PersonID="P_S_15" FamilyName="FAUCHEUX" GivenName="Florian" NOC="FRA" FFVLicenseNumber="0940042L" BirthDate="1971-03-12"/>
+  <Person PersonID="P_S_16" FamilyName="PYKE" GivenName="Jonathan" NOC="GBR" BirthDate="1965-07-16"/>
+  <Person PersonID="P_S_17" FamilyName="HOULT" GivenName="Simon" NOC="GBR" BirthDate="1969-04-27"/>
+  <Person PersonID="P_S_18" FamilyName="CHILDS" GivenName="Simon" NOC="GBR" BirthDate="1964-02-27"/>
+  <Person PersonID="P_S_19" FamilyName="WEINDL" GivenName="Kai" NOC="GER" BirthDate="1973-01-27"/>
+  <Person PersonID="P_S_20" FamilyName="RIMMELE" GivenName="Bernd" NOC="GER" BirthDate="1965-05-11"/>
+  <Person PersonID="P_S_21" FamilyName="WAGNER" GivenName="Ralf" NOC="GER" BirthDate="1968-08-16"/>
+  <Person PersonID="P_S_22" FamilyName="BOOG" GivenName="Christoph" NOC="GER" BirthDate="1968-08-24"/>
+  <Person PersonID="P_S_23" FamilyName="RIMMELE" GivenName="Axel" NOC="GER" BirthDate="1967-07-01"/>
+  <Person PersonID="P_S_24" FamilyName="FRANKE" GivenName="Andreas" NOC="GER" BirthDate="1981-07-27"/>
+  <Person PersonID="P_S_25" FamilyName="HUMMEL" GivenName="Frank T." NOC="GER" BirthDate="1969-01-02"/>
+  <Person PersonID="P_S_26" FamilyName="WILMERS" GivenName="Christian" NOC="GER" BirthDate="1960-05-29"/>
+  <Person PersonID="P_S_27" FamilyName="EIERMANN" GivenName="Jürgen" NOC="GER" BirthDate="1966-10-21"/>
+  <Person PersonID="P_S_28" FamilyName="STOLL" GivenName="Bernd" NOC="GER" BirthDate="1963-01-19"/>
+  <Person PersonID="P_S_29" FamilyName="KURTZ" GivenName="MICHAEL" NOC="MON" FFVLicenseNumber="1040205X" BirthDate="1952-03-28"/>
+  <Person PersonID="P_S_30" FamilyName="HAITZ" GivenName="Dominik" NOC="SUI" BirthDate="1960-03-30"/>
+  <Person PersonID="P_S_31" FamilyName="SEGER" GivenName="Bernhard" NOC="SUI" BirthDate="1962-04-29"/>
+  <Person PersonID="P_S_32" FamilyName="STOCKLI" GivenName="Hans" NOC="SUI" BirthDate="1958-03-05"/>
+  <Person PersonID="P_S_33" FamilyName="DOMINIQUE" GivenName="Wälchli" NOC="SUI" BirthDate="1970-12-09"/>
+  <Person PersonID="P_S_34" FamilyName="BAUMANN" GivenName="Rudolf" NOC="SUI" BirthDate="1957-04-15"/>
+  <Person PersonID="P_S_35" FamilyName="WEBER" GivenName="Jean Pierre" NOC="SUI" BirthDate="1951-11-13"/>
+  <Person PersonID="P_S_36" FamilyName="WITTICH" GivenName="Jürg" NOC="SUI" BirthDate="1965-12-05"/>
+  <Person PersonID="P_S_37" FamilyName="GOOD" GivenName="Michael" NOC="SUI" BirthDate="1965-05-14"/>
+  <Person PersonID="P_S_38" FamilyName="LEUENBERGER" GivenName="Wladimir" NOC="SUI" BirthDate="1969-05-06"/>
+  <Boat BoatID="B_BAH1_1" BoatName="BATEAU BAH1" SailNumber="BAH1" BoatModel="FINN"/>
+  <Boat BoatID="B_BEL41_2" BoatName="BATEAU BEL41" SailNumber="BEL41" BoatModel="FINN"/>
+  <Boat BoatID="B_BEL45_3" BoatName="kaisor" SailNumber="BEL45" BoatModel="FINN"/>
+  <Boat BoatID="B_BEL76_4" BoatName="Paspartoe IV" SailNumber="BEL76" BoatModel="FINN"/>
+  <Boat BoatID="B_BEL81_5" BoatName="Domani" SailNumber="BEL81" BoatModel="FINN"/>
+  <Boat BoatID="B_DEN6_6" BoatName="BATEAU DEN6" SailNumber="DEN6" BoatModel="FINN"/>
+  <Boat BoatID="B_ESP7_7" BoatName="navegaconjulieta.com" SailNumber="ESP7" BoatModel="FINN"/>
+  <Boat BoatID="B_FIN201_8" BoatName="BATEAU FIN201" SailNumber="FIN201" BoatModel="FINN"/>
+  <Boat BoatID="B_FRA117_9" BoatName="BATEAU FRA117" SailNumber="FRA117" BoatModel="FINN"/>
+  <Boat BoatID="B_FRA511_10" BoatName="BATEAU FRA511" SailNumber="FRA511" BoatModel="FINN"/>
+  <Boat BoatID="B_FRA57_11" BoatName="La Roche" SailNumber="FRA57" BoatModel="FINN"/>
+  <Boat BoatID="B_FRA60_12" BoatName="BATEAU FRA60" SailNumber="FRA60" BoatModel="FINN"/>
+  <Boat BoatID="B_FRA888_13" BoatName="BATEAU FRA888" SailNumber="FRA888" BoatModel="FINN"/>
+  <Boat BoatID="B_FRA9_14" BoatName="Finn’tonic" SailNumber="FRA9" BoatModel="FINN"/>
+  <Boat BoatID="B_FRA96_15" BoatName="www.occasion-accastillage.fr" SailNumber="FRA96" BoatModel="FINN"/>
+  <Boat BoatID="B_GBR18_16" BoatName="Woo hoo" SailNumber="GBR18" BoatModel="FINN"/>
+  <Boat BoatID="B_GBR19_17" BoatName="Marvin" SailNumber="GBR19" BoatModel="FINN"/>
+  <Boat BoatID="B_GBR82_18" BoatName="Rodney" SailNumber="GBR82" BoatModel="FINN"/>
+  <Boat BoatID="B_GER144_19" BoatName="Zefix!" SailNumber="GER144" BoatModel="FINN"/>
+  <Boat BoatID="B_GER277_20" BoatName="Borschtewal" SailNumber="GER277" BoatModel="FINN"/>
+  <Boat BoatID="B_GER311_21" BoatName="BATEAU GER311" SailNumber="GER311" BoatModel="FINN"/>
+  <Boat BoatID="B_GER315_22" BoatName="Meins" SailNumber="GER315" BoatModel="FINN"/>
+  <Boat BoatID="B_GER335_23" BoatName="Obacht" SailNumber="GER335" BoatModel="FINN"/>
+  <Boat BoatID="B_GER488_24" BoatName="BATEAU GER488" SailNumber="GER488" BoatModel="FINN"/>
+  <Boat BoatID="B_GER621_25" BoatName="Nolens Volens" SailNumber="GER621" BoatModel="FINN"/>
+  <Boat BoatID="B_GER678_26" BoatName="Wölfinn" SailNumber="GER678" BoatModel="FINN"/>
+  <Boat BoatID="B_GER8_27" BoatName="BATEAU GER8" SailNumber="GER8" BoatModel="FINN"/>
+  <Boat BoatID="B_GER93_28" BoatName="Daddy cool" SailNumber="GER93" BoatModel="FINN"/>
+  <Boat BoatID="B_MON234_29" BoatName="BATEAU MON234" SailNumber="MON234" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI27_30" BoatName="one step beyond" SailNumber="SUI27" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI33_31" BoatName="Hecht" SailNumber="SUI33" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI39_32" BoatName="BATEAU SUI39" SailNumber="SUI39" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI41_33" BoatName="ZORRO" SailNumber="SUI41" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI57_34" BoatName="Ultima Brujita" SailNumber="SUI57" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI69_35" BoatName="Nathalie" SailNumber="SUI69" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI83_36" BoatName="Finndling" SailNumber="SUI83" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI95_37" BoatName="Sullivan" SailNumber="SUI95" BoatModel="FINN"/>
+  <Boat BoatID="B_SUI98_38" BoatName="Uma" SailNumber="SUI98" BoatModel="FINN"/>
+  <Event CoID="137536" EpID="286789">
+    <Team BoatID="B_BAH1_1" NOC="BAH">
+      <Crew PersonID="P_S_1" Position="S"/>
+    </Team>
+    <Team BoatID="B_BEL41_2" NOC="BEL">
+      <Crew PersonID="P_S_2" Position="S"/>
+    </Team>
+    <Team BoatID="B_BEL45_3" NOC="BEL">
+      <Crew PersonID="P_S_3" Position="S"/>
+    </Team>
+    <Team BoatID="B_BEL76_4" NOC="BEL">
+      <Crew PersonID="P_S_4" Position="S"/>
+    </Team>
+    <Team BoatID="B_BEL81_5" NOC="BEL">
+      <Crew PersonID="P_S_5" Position="S"/>
+    </Team>
+    <Team BoatID="B_DEN6_6" NOC="DEN">
+      <Crew PersonID="P_S_6" Position="S"/>
+    </Team>
+    <Team BoatID="B_ESP7_7" NOC="ESP">
+      <Crew PersonID="P_S_7" Position="S"/>
+    </Team>
+    <Team BoatID="B_FIN201_8" NOC="FIN">
+      <Crew PersonID="P_S_8" Position="S"/>
+    </Team>
+    <Team BoatID="B_FRA117_9" NOC="FRA">
+      <Crew PersonID="P_S_9" Position="S"/>
+    </Team>
+    <Team BoatID="B_FRA511_10" NOC="FRA">
+      <Crew PersonID="P_S_10" Position="S"/>
+    </Team>
+    <Team BoatID="B_FRA57_11" NOC="FRA">
+      <Crew PersonID="P_S_11" Position="S"/>
+    </Team>
+    <Team BoatID="B_FRA60_12" NOC="FRA">
+      <Crew PersonID="P_S_12" Position="S"/>
+    </Team>
+    <Team BoatID="B_FRA888_13" NOC="FRA">
+      <Crew PersonID="P_S_13" Position="S"/>
+    </Team>
+    <Team BoatID="B_FRA9_14" NOC="FRA">
+      <Crew PersonID="P_S_14" Position="S"/>
+    </Team>
+    <Team BoatID="B_FRA96_15" NOC="FRA">
+      <Crew PersonID="P_S_15" Position="S"/>
+    </Team>
+    <Team BoatID="B_GBR18_16" NOC="GBR">
+      <Crew PersonID="P_S_16" Position="S"/>
+    </Team>
+    <Team BoatID="B_GBR19_17" NOC="GBR">
+      <Crew PersonID="P_S_17" Position="S"/>
+    </Team>
+    <Team BoatID="B_GBR82_18" NOC="GBR">
+      <Crew PersonID="P_S_18" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER144_19" NOC="GER">
+      <Crew PersonID="P_S_19" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER277_20" NOC="GER">
+      <Crew PersonID="P_S_20" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER311_21" NOC="GER">
+      <Crew PersonID="P_S_21" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER315_22" NOC="GER">
+      <Crew PersonID="P_S_22" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER335_23" NOC="GER">
+      <Crew PersonID="P_S_23" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER488_24" NOC="GER">
+      <Crew PersonID="P_S_24" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER621_25" NOC="GER">
+      <Crew PersonID="P_S_25" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER678_26" NOC="GER">
+      <Crew PersonID="P_S_26" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER8_27" NOC="GER">
+      <Crew PersonID="P_S_27" Position="S"/>
+    </Team>
+    <Team BoatID="B_GER93_28" NOC="GER">
+      <Crew PersonID="P_S_28" Position="S"/>
+    </Team>
+    <Team BoatID="B_MON234_29" NOC="MON">
+      <Crew PersonID="P_S_29" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI27_30" NOC="SUI">
+      <Crew PersonID="P_S_30" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI33_31" NOC="SUI">
+      <Crew PersonID="P_S_31" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI39_32" NOC="SUI">
+      <Crew PersonID="P_S_32" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI41_33" NOC="SUI">
+      <Crew PersonID="P_S_33" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI57_34" NOC="SUI">
+      <Crew PersonID="P_S_34" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI69_35" NOC="SUI">
+      <Crew PersonID="P_S_35" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI83_36" NOC="SUI">
+      <Crew PersonID="P_S_36" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI95_37" NOC="SUI">
+      <Crew PersonID="P_S_37" Position="S"/>
+    </Team>
+    <Team BoatID="B_SUI98_38" NOC="SUI">
+      <Crew PersonID="P_S_38" Position="S"/>
+    </Team>
+  </Event>
+</SailingXRR>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<SailingXRR Version="1.0" Type="Inscriptions" Date="2026-04-01">
+  <Person PersonID="P_S_1" FamilyName="INCONNU" GivenName="Inconnu" NOC="FRA"/>
+  <Person PersonID="P_S_2" FamilyName="INCONNU" GivenName="Inconnu" NOC="FRA"/>
+  <Person PersonID="P_S_3" FamilyName="INCONNU" GivenName="Inconnu" NOC="FRA"/>
+  <Person PersonID="P_S_4" FamilyName="INCONNU" GivenName="Inconnu" NOC="FRA"/>
+  <Person PersonID="P_S_5" FamilyName="INCONNU" GivenName="Inconnu" NOC="FRA"/>
+  <Person PersonID="P_S_6" FamilyName="INCONNU" GivenName="Inconnu" NOC="FRA"/>
+  <Person PersonID="P_S_7" FamilyName="INCONNU" GivenName="Inconnu" NOC="FRA"/>
+  <Person PersonID="P_S_8" FamilyName="INCONNU" GivenName="Inconnu" NOC="FRA"/>
+  <Boat BoatID="B_1_1" BoatName="BATEAU 1" SailNumber="1"/>
+  <Boat BoatID="B_2_2" BoatName="BATEAU 2" SailNumber="2"/>
+  <Boat BoatID="B_3_3" BoatName="BATEAU 3" SailNumber="3"/>
+  <Boat BoatID="B_4_4" BoatName="BATEAU 4" SailNumber="4"/>
+  <Boat BoatID="B_5_5" BoatName="BATEAU 5" SailNumber="5"/>
+  <Boat BoatID="B_6_6" BoatName="BATEAU 6" SailNumber="6"/>
+  <Boat BoatID="B_7_7" BoatName="BATEAU 7" SailNumber="7"/>
+  <Boat BoatID="B_8_8" BoatName="BATEAU 8" SailNumber="8"/>
+  <Event CoID="143550" EpID="296293">
+    <Team BoatID="B_1_1" NOC="FRA">
+      <Crew PersonID="P_S_1" Position="S"/>
+    </Team>
+    <Team BoatID="B_2_2" NOC="FRA">
+      <Crew PersonID="P_S_2" Position="S"/>
+    </Team>
+    <Team BoatID="B_3_3" NOC="FRA">
+      <Crew PersonID="P_S_3" Position="S"/>
+    </Team>
+    <Team BoatID="B_4_4" NOC="FRA">
+      <Crew PersonID="P_S_4" Position="S"/>
+    </Team>
+    <Team BoatID="B_5_5" NOC="FRA">
+      <Crew PersonID="P_S_5" Position="S"/>
+    </Team>
+    <Team BoatID="B_6_6" NOC="FRA">
+      <Crew PersonID="P_S_6" Position="S"/>
+    </Team>
+    <Team BoatID="B_7_7" NOC="FRA">
+      <Crew PersonID="P_S_7" Position="S"/>
+    </Team>
+    <Team BoatID="B_8_8" NOC="FRA">
+      <Crew PersonID="P_S_8" Position="S"/>
+    </Team>
+  </Event>
+</SailingXRR>

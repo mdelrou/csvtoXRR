@@ -1,0 +1,11 @@
+1) copier l'executable csvtoxrr.exe dans le répertoire de son ordinateur où il y a le fichier csv à exporter de préférence.
+Mais il est possible aussi de sélectionner le fichier dans l'explorateur de fichiers
+2) exécuter le fichier csvtoxrr.exe en double-cliquant l'éxecutable.
+3) cela va ouvrir une mini-fenêtre graphique 
+4a) choisir un fichier en cliquant sur "parcourir un fichier" ; une fois sélectionné le nomdufichier s'affiche juste en 
+   dessous le bouton
+4b) choisir de le numéro de régate ( Code ) dans détails de la régate sur Score) et le numéro d'épreuve (Id dans Epreuves)
+5) puis cliquer sur "lancer la conversion"
+6) un message s'affiche "Fichier créé avec succès ! nomdufichier.XRR
+7) cliquer sur le bouton "Fermer l'application"
+8) le fichier .XRR se trouve dans le même répertoire que le fichier initial à convertir(le .csv)

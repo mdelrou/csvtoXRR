@@ -1,0 +1,323 @@
+<SailingXRR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.sailing.org/techpages/resources/xml/sailingXRR_v2.0.1.xsd" Version="2.0.1" DateTime="2026-04-01T14:24:10">
+  <Person PersonID="a8904d05-7727-4f6b-9c73-46769e8f43f6" IFPersonID="GBRJA3" FamilyName="ALLEN" GivenName="john" NOC="GBR" Gender="" />
+  <Person PersonID="f3339452-d5dc-4375-a92a-3872f0ee8277" IFPersonID="" FamilyName="ANDRADE" GivenName="Pedro" NOC="SUI" Gender="" />
+  <Person PersonID="94f43780-f4b8-4832-8d2d-e68d40d68ea5" IFPersonID="GBRDA6" FamilyName="ATKINSON" GivenName="david" NOC="GBR" Gender="" />
+  <Person PersonID="c3394dba-b483-4358-b6db-452e4249836f" IFPersonID="FRABG19" FamilyName="BLANC" GivenName="Gerard" NOC="FRA" Gender="">
+    <Other Name="NationalId" Value="0514306L" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="7832fcac-9815-49f0-a508-bfce0aa120f0" IFPersonID="GBRDB128" FamilyName="BONDARENKO" GivenName="Dmitry" NOC="GBR" Gender="" />
+  <Person PersonID="66713bf9-1a10-4ac1-b257-2bd67a42c1f9" IFPersonID="" FamilyName="BORTOLETTO" GivenName="Davide" NOC="ITA" Gender="" />
+  <Person PersonID="746bb57b-d5c5-4a8d-a1e4-19f607b4e86b" IFPersonID="FRABB94" FamilyName="BOUAULT" GivenName="Bruno" NOC="FRA" Gender="">
+    <Other Name="NationalId" Value="0025662G" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="f9f659eb-d11a-4ffe-8809-9f6da376afa4" IFPersonID="(GBRIB199)" FamilyName="BRADBURY" GivenName="Ivan" NOC="GBR" Gender="Male" />
+  <Person PersonID="6c53921b-5910-42c3-a667-a40fa278f11a" IFPersonID="DEN LB 7" FamilyName="BROEN" GivenName="lars" NOC="DEN" Gender="" />
+  <Person PersonID="72a63677-4bc4-4746-8700-b77425c6c7fa" IFPersonID="IRLMB12" FamilyName="BYRNE" GivenName="Martin" NOC="IRL" Gender="">
+    <Other Name="NationalId" Value="000" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="3bab1fbf-810a-4948-9c9d-48bb4c964275" IFPersonID="FRAVC17" FamilyName="CAPELA" GivenName="Vincent" NOC="FRA" Gender="">
+    <Other Name="NationalId" Value="0952122U" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="bbafa75f-a3c3-4091-bc51-5a3c33fbe5a0" IFPersonID="GBRPC65" FamilyName="CATMUR" GivenName="PHILIP" NOC="GBR" Gender="" />
+  <Person PersonID="1dedcaea-07ba-476f-8738-d9f5aa825281" IFPersonID="FRAJC56" FamilyName="CHARTON" GivenName="Jean Gabriel" NOC="FRA" Gender="">
+    <Other Name="NationalId" Value="0177414G" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="50efd4a4-991c-4bf1-ae88-9ec2b1cd30f1" IFPersonID="FRAJC94" FamilyName="CHAUVET" GivenName="Jacques" NOC="FRA" Gender="">
+    <Other Name="NationalId" Value="0493762L" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="329d597c-8391-4b12-b0cc-f34705a4e13a" IFPersonID="GBRKD6" FamilyName="DIEDERICHS" GivenName="Klaus" NOC="GBR" Gender="" />
+  <Person PersonID="611273b6-f2e0-4eee-8e95-f1e746ee3c87" IFPersonID="DENTD1" FamilyName="DRESLER PEDERSEN" GivenName="Thomas" NOC="DEN" Gender="" />
+  <Person PersonID="3d328dd1-e84a-4936-bbbf-88e104cb4e1c" IFPersonID="FRAGC101" FamilyName="GIGNOUX" GivenName="Claude" NOC="FRA" Gender="">
+    <Other Name="NationalId" Value="0758760" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="e07c0b34-a11a-4025-bced-c086281e7e1a" IFPersonID="IRLCG27" FamilyName="GOOD" GivenName="Cameron" NOC="IRL" Gender="" />
+  <Person PersonID="39a8da2e-13f4-4103-acdc-994f5cb58ef7" IFPersonID="DENLH1" FamilyName="HENDRIKSEN" GivenName="Lars" NOC="GBR" Gender="" />
+  <Person PersonID="6cdb78f2-dfbc-45c8-89aa-493f94e62ddc" IFPersonID="(GBRRJ20)" FamilyName="JAMES" GivenName="Ron" NOC="GBR" Gender="" />
+  <Person PersonID="93b05aee-06db-4985-8a67-c36bea97a6c4" IFPersonID="GBRJL46" FamilyName="JAMIE" GivenName="LEA" NOC="GBR" Gender="" />
+  <Person PersonID="5f4803d6-25dd-4fa4-8e43-1932839325e1" IFPersonID="(FINTJ2)" FamilyName="JUNGELL" GivenName="Tom" NOC="FIN" Gender="" />
+  <Person PersonID="6e3e5d60-b575-457a-952b-48db0851230e" IFPersonID="DENAL3" FamilyName="LASSEN" GivenName="anders" NOC="DEN" Gender="" />
+  <Person PersonID="61a3bd3b-87a4-4f86-b515-e3848319b561" IFPersonID="(UKRLG1)" FamilyName="LEONCHUK" GivenName="George" NOC="GBR" Gender="" />
+  <Person PersonID="72079de4-98cd-4381-91e9-fde8f05371a5" IFPersonID="(FINMM22)" FamilyName="MANNSTRÖM" GivenName="Markus" NOC="FIN" Gender="" />
+  <Person PersonID="79900814-caf1-4544-9980-b4cacfd9f6f9" IFPersonID="KGZAM1" FamilyName="MURASHKIN" GivenName="Aleksei" NOC="EST" Gender="" />
+  <Person PersonID="4a69880c-919a-4636-bbd1-0c6804e613a0" IFPersonID="IRLDM85" FamilyName="MURPHY" GivenName="Daniel" NOC="IRL" Gender="" />
+  <Person PersonID="c81a7981-5f11-42d0-872a-ec27fc31ac55" IFPersonID="(IRLSM73)" FamilyName="MURPHY" GivenName="Sean" NOC="IRL" Gender="" />
+  <Person PersonID="2aeb12a2-c444-4185-8316-227eeacd06e9" IFPersonID="(IRLJO65)" FamilyName="O'CONNOR" GivenName="John" NOC="IRL" Gender="" />
+  <Person PersonID="da2d3489-fed0-44c5-91a9-f2a107c70811" IFPersonID="(GERDO01)" FamilyName="OLDENBURG" GivenName="Dirk" NOC="GER" Gender="" />
+  <Person PersonID="37aeb3ba-ed6d-48ad-82f5-335067379f6b" IFPersonID="ESTIO1" FamilyName="ORLOV" GivenName="Igor" NOC="EST" Gender="" />
+  <Person PersonID="4a8a60c9-8074-4a70-abf2-d338ebff4a41" IFPersonID="ESTSP5" FamilyName="PARFENENKO" GivenName="Sergey" NOC="EST" Gender="" />
+  <Person PersonID="5310ac02-e2ce-44ac-84b3-f457b00c9f61" IFPersonID="ITAAA63" FamilyName="QUARANTA" GivenName="Andrea" NOC="ITA" Gender="" />
+  <Person PersonID="83d2b4d5-75f2-4c06-b430-65c923e0b049" IFPersonID="(ITAMQ5)" FamilyName="QUARANTA" GivenName="Mario" NOC="ITA" Gender="" />
+  <Person PersonID="1918aa6a-47b1-4e1f-9cc7-d676a73c0c39" IFPersonID="GBRSR9" FamilyName="RANSOM" GivenName="sandra" NOC="GBR" Gender="" />
+  <Person PersonID="489c91be-cbf5-4ef8-ae7d-0306e84056c4" IFPersonID="(FINJR17)" FamilyName="RANTALA" GivenName="Jaakko" NOC="FIN" Gender="" />
+  <Person PersonID="2ff91c09-dea1-4f8c-81a9-5170546decc6" IFPersonID="(NEDMR5)" FamilyName="REIJNHOUD" GivenName="Marc" NOC="BEL" Gender="">
+    <Other Name="NationalId" Value="b" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="55653497-b312-4468-b0e9-cc5b09b7b23a" IFPersonID="" FamilyName="SCOTT" GivenName="Rory" NOC="GBR" Gender="" />
+  <Person PersonID="cd2c18f4-c738-465f-b501-d8ab8e628100" IFPersonID="KGZAS1" FamilyName="SHALAGIN" GivenName="Alexander" NOC="FIN" Gender="" />
+  <Person PersonID="45dcefed-10c0-461c-9378-7a15018db15a" IFPersonID="IRLJS23" FamilyName="SIMMS" GivenName="John" NOC="IRL" Gender="">
+    <Other Name="NationalId" Value="000" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="2422668f-3034-4dcf-a040-0ca939ba3054" IFPersonID="" FamilyName="STATSENKO" GivenName="Vadim" NOC="KGZ" Gender="" />
+  <Person PersonID="ce6d1e3e-d4b6-4ca2-b17c-0074c904ed82" IFPersonID="NEDPT1" FamilyName="TEN HARMSEN van der BEEK" GivenName="Pim" NOC="BEL" Gender="">
+    <Other Name="NationalId" Value="2" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="218decc2-476b-46a9-9e82-b31fd3213371" IFPersonID="BELBV13" FamilyName="van CAUWENBERGH" GivenName="Ben" NOC="BEL" Gender="">
+    <Other Name="NationalId" Value="1" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="b86e077a-cc88-49d3-80a3-fd1fc6fa343d" IFPersonID="SWEMW4" FamilyName="WESTERDAHL" GivenName="MARTIN" NOC="ITA" Gender="" />
+  <Person PersonID="04ed2acb-9f19-4a92-8ee6-903a7ad51164" IFPersonID="IRLAW3" FamilyName="WINKELMANN" GivenName="Adam" NOC="IRL" Gender="">
+    <Other Name="NationalId" Value="000" />
+    <Other Name="NationalIdCode" Value="FRA" />
+  </Person>
+  <Person PersonID="ac19ac90-2f3a-414a-af5b-4e3a47a4b765" IFPersonID="POLDZ1" FamilyName="ZYCKI" GivenName="Dominik" NOC="POL" Gender="" />
+  <Boat BoatID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" BoatName="AnnAmaii" SailNumber="BEL 80" />
+  <Boat BoatID="f37841c7-adf5-4fb3-9ed6-41f686011477" BoatName="Norbert" SailNumber="DEN 395" />
+  <Boat BoatID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" BoatName="Lark" SailNumber="EST 18" />
+  <Boat BoatID="8a8f9235-2069-44bd-965a-286d466507c1" BoatName="Nenya" SailNumber="FIN 63" />
+  <Boat BoatID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" BoatName="Tsuica" SailNumber="FRA 409" />
+  <Boat BoatID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" BoatName="Coyote" SailNumber="FRA 432" />
+  <Boat BoatID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" BoatName="Blue Haze" SailNumber="GBR 375" />
+  <Boat BoatID="bb66f565-4afe-4eab-85c6-f55ab1ca0b04" BoatName="" SailNumber="GBR 408" />
+  <Boat BoatID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" BoatName="Johanna" SailNumber="GBR 408" />
+  <Boat BoatID="c7c1034a-e916-4088-993b-72b5c7883adc" BoatName="FEI-LIN'S FLIRTATION" SailNumber="GBR 633" />
+  <Boat BoatID="d841269e-1de7-4353-b254-67e389c4997e" BoatName="FEVER" SailNumber="GBR 819" />
+  <Boat BoatID="7ab87883-a984-406f-8f49-ea716399bff0" BoatName="Outlaw" SailNumber="GBR 830" />
+  <Boat BoatID="a998468d-0a2b-42c5-8536-911fbb7b6abf" BoatName="Jaguar Sailing Team" SailNumber="IRL 201" />
+  <Boat BoatID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" BoatName="FORTITUDE" SailNumber="IRL 226" />
+  <Boat BoatID="8db48587-3049-4caa-afe7-ef8b7c44b8de" BoatName="6 Diva" SailNumber="ITA 80" />
+  <Boat BoatID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" BoatName="FREE" SailNumber="SUI 313" />
+  <Team Gender="Open" TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" TeamName="Ben VAN CAUWENBERGH" BoatID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" NOC="BEL">
+    <Crew PersonID="218decc2-476b-46a9-9e82-b31fd3213371" Position="S" />
+    <Crew PersonID="2ff91c09-dea1-4f8c-81a9-5170546decc6" Position="C" />
+    <Crew PersonID="ce6d1e3e-d4b6-4ca2-b17c-0074c904ed82" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" TeamName="lars BROEN" BoatID="f37841c7-adf5-4fb3-9ed6-41f686011477" NOC="DEN">
+    <Crew PersonID="6c53921b-5910-42c3-a667-a40fa278f11a" Position="S" />
+    <Crew PersonID="611273b6-f2e0-4eee-8e95-f1e746ee3c87" Position="C" />
+    <Crew PersonID="6e3e5d60-b575-457a-952b-48db0851230e" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" TeamName="Sergey PARFENENKO" BoatID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" NOC="EST">
+    <Crew PersonID="4a8a60c9-8074-4a70-abf2-d338ebff4a41" Position="S" />
+    <Crew PersonID="2422668f-3034-4dcf-a040-0ca939ba3054" Position="C" />
+    <Crew PersonID="37aeb3ba-ed6d-48ad-82f5-335067379f6b" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="8a8f9235-2069-44bd-965a-286d466507c1" TeamName="Tom JUNGELL" BoatID="8a8f9235-2069-44bd-965a-286d466507c1" NOC="FIN">
+    <Crew PersonID="5f4803d6-25dd-4fa4-8e43-1932839325e1" Position="S" />
+    <Crew PersonID="489c91be-cbf5-4ef8-ae7d-0306e84056c4" Position="C" />
+    <Crew PersonID="72079de4-98cd-4381-91e9-fde8f05371a5" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" TeamName="Gerard BLANC" BoatID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" NOC="FRA">
+    <Crew PersonID="c3394dba-b483-4358-b6db-452e4249836f" Position="S" />
+    <Crew PersonID="1dedcaea-07ba-476f-8738-d9f5aa825281" Position="C" />
+    <Crew PersonID="746bb57b-d5c5-4a8d-a1e4-19f607b4e86b" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" TeamName="Vincent CAPELA" BoatID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" NOC="FRA">
+    <Crew PersonID="3bab1fbf-810a-4948-9c9d-48bb4c964275" Position="S" />
+    <Crew PersonID="3d328dd1-e84a-4936-bbbf-88e104cb4e1c" Position="C" />
+    <Crew PersonID="50efd4a4-991c-4bf1-ae88-9ec2b1cd30f1" Position="C" />
+  </Team>
+  <Team Gender="Men" TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" TeamName="Ivan BRADBURY" BoatID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" NOC="GBR">
+    <Crew PersonID="f9f659eb-d11a-4ffe-8809-9f6da376afa4" Position="S" />
+    <Crew PersonID="39a8da2e-13f4-4103-acdc-994f5cb58ef7" Position="C" />
+    <Crew PersonID="61a3bd3b-87a4-4f86-b515-e3848319b561" Position="C" />
+  </Team>
+  <Team Gender="" TeamID="bb66f565-4afe-4eab-85c6-f55ab1ca0b04" TeamName="" BoatID="bb66f565-4afe-4eab-85c6-f55ab1ca0b04" NOC="GBR" />
+  <Team Gender="Open" TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" TeamName="Dmitry BONDARENKO" BoatID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" NOC="GBR">
+    <Crew PersonID="7832fcac-9815-49f0-a508-bfce0aa120f0" Position="S" />
+    <Crew PersonID="79900814-caf1-4544-9980-b4cacfd9f6f9" Position="C" />
+    <Crew PersonID="cd2c18f4-c738-465f-b501-d8ab8e628100" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" TeamName="Ron JAMES" BoatID="c7c1034a-e916-4088-993b-72b5c7883adc" NOC="GBR">
+    <Crew PersonID="6cdb78f2-dfbc-45c8-89aa-493f94e62ddc" Position="S" />
+    <Crew PersonID="93b05aee-06db-4985-8a67-c36bea97a6c4" Position="C" />
+    <Crew PersonID="bbafa75f-a3c3-4091-bc51-5a3c33fbe5a0" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="d841269e-1de7-4353-b254-67e389c4997e" TeamName="Klaus DIEDERICHS" BoatID="d841269e-1de7-4353-b254-67e389c4997e" NOC="GBR">
+    <Crew PersonID="329d597c-8391-4b12-b0cc-f34705a4e13a" Position="S" />
+    <Crew PersonID="55653497-b312-4468-b0e9-cc5b09b7b23a" Position="C" />
+    <Crew PersonID="b86e077a-cc88-49d3-80a3-fd1fc6fa343d" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="7ab87883-a984-406f-8f49-ea716399bff0" TeamName="david ATKINSON" BoatID="7ab87883-a984-406f-8f49-ea716399bff0" NOC="GBR">
+    <Crew PersonID="94f43780-f4b8-4832-8d2d-e68d40d68ea5" Position="S" />
+    <Crew PersonID="1918aa6a-47b1-4e1f-9cc7-d676a73c0c39" Position="C" />
+    <Crew PersonID="a8904d05-7727-4f6b-9c73-46769e8f43f6" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" TeamName="Martin BYRNE" BoatID="a998468d-0a2b-42c5-8536-911fbb7b6abf" NOC="IRL">
+    <Crew PersonID="72a63677-4bc4-4746-8700-b77425c6c7fa" Position="S" />
+    <Crew PersonID="04ed2acb-9f19-4a92-8ee6-903a7ad51164" Position="C" />
+    <Crew PersonID="45dcefed-10c0-461c-9378-7a15018db15a" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" TeamName="Daniel MURPHY" BoatID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" NOC="IRL">
+    <Crew PersonID="4a69880c-919a-4636-bbd1-0c6804e613a0" Position="S" />
+    <Crew PersonID="2aeb12a2-c444-4185-8316-227eeacd06e9" Position="C" />
+    <Crew PersonID="c81a7981-5f11-42d0-872a-ec27fc31ac55" Position="C" />
+    <Crew PersonID="e07c0b34-a11a-4025-bced-c086281e7e1a" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" TeamName="Mario QUARANTA" BoatID="8db48587-3049-4caa-afe7-ef8b7c44b8de" NOC="ITA">
+    <Crew PersonID="83d2b4d5-75f2-4c06-b430-65c923e0b049" Position="S" />
+    <Crew PersonID="5310ac02-e2ce-44ac-84b3-f457b00c9f61" Position="C" />
+    <Crew PersonID="66713bf9-1a10-4ac1-b257-2bd67a42c1f9" Position="C" />
+  </Team>
+  <Team Gender="Open" TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" TeamName="Dirk OLDENBURG" BoatID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" NOC="SUI">
+    <Crew PersonID="da2d3489-fed0-44c5-91a9-f2a107c70811" Position="S" />
+    <Crew PersonID="ac19ac90-2f3a-414a-af5b-4e3a47a4b765" Position="C" />
+    <Crew PersonID="f3339452-d5dc-4375-a92a-3872f0ee8277" Position="C" />
+  </Team>
+  <Regatta RegattaID="643930a6-92ef-418b-8094-e0b2fd6a1376" IFRegattaID="" Title="Coupe du Commodore JP GAILES Dragon" Type="IndividualRegatta" IFUploadCode="">
+    <Division DivisionID="8ceae620-3866-434f-9e00-85d89e40118c" IFClassID="" Title="SUPPORT VESSEL" Gender="Open" />
+    <Division DivisionID="e7a44732-6c25-4c20-8424-eaf155027871" IFClassID="Dragon" Title="Dragon" Gender="Open">
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="d841269e-1de7-4353-b254-67e389c4997e" RacePoints="5.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="d841269e-1de7-4353-b254-67e389c4997e" RacePoints="2.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="d841269e-1de7-4353-b254-67e389c4997e" RacePoints="1.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="d841269e-1de7-4353-b254-67e389c4997e" RacePoints="1.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="d841269e-1de7-4353-b254-67e389c4997e" RacePoints="1.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="d841269e-1de7-4353-b254-67e389c4997e" RacePoints="1.0" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="d841269e-1de7-4353-b254-67e389c4997e" RacePoints="16.0" Discard="true" ScoreCode="DNS" />
+      <SeriesResult TeamID="d841269e-1de7-4353-b254-67e389c4997e" TotalPoints="27.0" NetPoints="11.0" Rank="1" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" RacePoints="3.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" RacePoints="1.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" RacePoints="3.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" RacePoints="2.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" RacePoints="3.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" RacePoints="4.0" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" RacePoints="5.0" Discard="true" />
+      <SeriesResult TeamID="9e4f8d64-28f6-4c43-8657-573d8f7f80a7" TotalPoints="21.0" NetPoints="16.0" Rank="2" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" RacePoints="2.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" RacePoints="3.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" RacePoints="5.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" RacePoints="4.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" RacePoints="4.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" RacePoints="2.0" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" RacePoints="6.0" Discard="true" />
+      <SeriesResult TeamID="cdc5d5a0-3419-4d7a-accf-88fe84e3a7b1" TotalPoints="26.0" NetPoints="20.0" Rank="3" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" RacePoints="6.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" RacePoints="10.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" RacePoints="4.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" RacePoints="3.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" RacePoints="2.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" RacePoints="16.0" Discard="true" ScoreCode="DNF" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" RacePoints="2.0" />
+      <SeriesResult TeamID="8f9fedcd-9c79-4a7b-95f5-5222c540e4a9" TotalPoints="43.0" NetPoints="27.0" Rank="4" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" RacePoints="1.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" RacePoints="6.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" RacePoints="7.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" RacePoints="10.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" RacePoints="10.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" RacePoints="16.0" Discard="true" ScoreCode="DNF" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" RacePoints="1.0" />
+      <SeriesResult TeamID="fc06647a-81fc-4fe2-a2f0-ae13442283d9" TotalPoints="51.0" NetPoints="35.0" Rank="5" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" RacePoints="9.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" RacePoints="8.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" RacePoints="6.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" RacePoints="11.0" Discard="true" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" RacePoints="5.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" RacePoints="3.0" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" RacePoints="9.0" />
+      <SeriesResult TeamID="bf1efd03-17ab-40f0-9b1a-d7b3f3864b58" TotalPoints="51.0" NetPoints="40.0" Rank="6" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" RacePoints="8.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" RacePoints="9.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" RacePoints="13.0" Discard="true" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" RacePoints="8.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" RacePoints="8.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" RacePoints="5.0" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" RacePoints="8.0" />
+      <SeriesResult TeamID="d80a29c2-0cfe-47d0-8409-0bd4d755e5e4" TotalPoints="59.0" NetPoints="46.0" Rank="7" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" RacePoints="7.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" RacePoints="7.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" RacePoints="12.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" RacePoints="6.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" RacePoints="9.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" RacePoints="6.0" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" RacePoints="16.0" Discard="true" ScoreCode="DNS" />
+      <SeriesResult TeamID="90c79dd4-a1ce-4160-ac44-76aaebe81fa2" TotalPoints="63.0" NetPoints="47.0" Rank="8" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" RacePoints="14.0" Discard="true" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" RacePoints="13.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" RacePoints="11.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" RacePoints="7.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" RacePoints="6.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" RacePoints="7.0" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" RacePoints="4.0" />
+      <SeriesResult TeamID="8db48587-3049-4caa-afe7-ef8b7c44b8de" TotalPoints="62.0" NetPoints="48.0" Rank="9" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" RacePoints="4.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" RacePoints="5.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" RacePoints="2.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" RacePoints="9.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" RacePoints="16.0" Discard="true" ScoreCode="DNF" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" RacePoints="16.0" ScoreCode="DNF" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" RacePoints="16.0" ScoreCode="DNS" />
+      <SeriesResult TeamID="a998468d-0a2b-42c5-8536-911fbb7b6abf" TotalPoints="68.0" NetPoints="52.0" Rank="10" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="8a8f9235-2069-44bd-965a-286d466507c1" RacePoints="12.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="8a8f9235-2069-44bd-965a-286d466507c1" RacePoints="11.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="8a8f9235-2069-44bd-965a-286d466507c1" RacePoints="8.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="8a8f9235-2069-44bd-965a-286d466507c1" RacePoints="5.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="8a8f9235-2069-44bd-965a-286d466507c1" RacePoints="7.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="8a8f9235-2069-44bd-965a-286d466507c1" RacePoints="16.0" Discard="true" ScoreCode="DNF" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="8a8f9235-2069-44bd-965a-286d466507c1" RacePoints="16.0" ScoreCode="DNS" />
+      <SeriesResult TeamID="8a8f9235-2069-44bd-965a-286d466507c1" TotalPoints="75.0" NetPoints="59.0" Rank="11" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" RacePoints="13.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" RacePoints="4.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" RacePoints="9.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" RacePoints="12.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" RacePoints="16.0" Discard="true" ScoreCode="DNF" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" RacePoints="16.0" ScoreCode="DNF" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" RacePoints="7.0" />
+      <SeriesResult TeamID="c7c1034a-e916-4088-993b-72b5c7883adc" TotalPoints="77.0" NetPoints="61.0" Rank="12" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="7ab87883-a984-406f-8f49-ea716399bff0" RacePoints="11.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="7ab87883-a984-406f-8f49-ea716399bff0" RacePoints="14.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="7ab87883-a984-406f-8f49-ea716399bff0" RacePoints="14.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="7ab87883-a984-406f-8f49-ea716399bff0" RacePoints="13.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="7ab87883-a984-406f-8f49-ea716399bff0" RacePoints="12.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="7ab87883-a984-406f-8f49-ea716399bff0" RacePoints="16.0" Discard="true" ScoreCode="DNF" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="7ab87883-a984-406f-8f49-ea716399bff0" RacePoints="3.0" />
+      <SeriesResult TeamID="7ab87883-a984-406f-8f49-ea716399bff0" TotalPoints="83.0" NetPoints="67.0" Rank="13" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" RacePoints="10.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" RacePoints="12.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" RacePoints="10.0" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" RacePoints="14.0" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" RacePoints="11.0" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" RacePoints="16.0" Discard="true" ScoreCode="DNF" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" RacePoints="16.0" ScoreCode="DNS" />
+      <SeriesResult TeamID="9b920dd2-9486-4868-bcae-c1b6b3db6edb" TotalPoints="89.0" NetPoints="73.0" Rank="14" Tied="false" />
+      <RaceResult RaceID="b428424d-4765-48b1-87ed-2950727cda29" TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" RacePoints="15.0" />
+      <RaceResult RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" RacePoints="15.0" />
+      <RaceResult RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" RacePoints="16.0" Discard="true" ScoreCode="DNF" />
+      <RaceResult RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" RacePoints="16.0" ScoreCode="OCS" />
+      <RaceResult RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" RacePoints="16.0" ScoreCode="DNF" />
+      <RaceResult RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" RacePoints="16.0" ScoreCode="DNF" />
+      <RaceResult RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" RacePoints="16.0" ScoreCode="DNS" />
+      <SeriesResult TeamID="f37841c7-adf5-4fb3-9ed6-41f686011477" TotalPoints="110.0" NetPoints="94.0" Rank="15" Tied="false" />
+    </Division>
+    <Race RaceID="57e0adcb-6205-4b49-8dc7-2f9afc13aa26" RaceName="R3" RaceNumber="3" RaceStatus="finished" StartScheduled="2026-03-27T00:00:00" StartActual="2026-03-27T00:00:00">
+      <Other Name="RankingDivisionId" Value="e7a44732-6c25-4c20-8424-eaf155027871" />
+    </Race>
+    <Race RaceID="c42ede78-8a02-440f-aa50-7233b50e2239" RaceName="R2" RaceNumber="2" RaceStatus="finished" StartScheduled="2026-03-27T00:00:00" StartActual="2026-03-27T00:00:00">
+      <Other Name="RankingDivisionId" Value="e7a44732-6c25-4c20-8424-eaf155027871" />
+    </Race>
+    <Race RaceID="b428424d-4765-48b1-87ed-2950727cda29" RaceName="R1" RaceNumber="1" RaceStatus="finished" StartScheduled="2026-03-27T00:00:00" StartActual="2026-03-27T00:00:00">
+      <Other Name="RankingDivisionId" Value="e7a44732-6c25-4c20-8424-eaf155027871" />
+    </Race>
+    <Race RaceID="eaf21137-89bf-48b7-8658-d6d6c293c2d5" RaceName="R4" RaceNumber="4" RaceStatus="finished" StartScheduled="2026-03-28T00:00:00" StartActual="2026-03-28T00:00:00">
+      <Other Name="RankingDivisionId" Value="e7a44732-6c25-4c20-8424-eaf155027871" />
+    </Race>
+    <Race RaceID="844ec753-4bce-4019-81a2-efdaac4bbe88" RaceName="R5" RaceNumber="5" RaceStatus="finished" StartScheduled="2026-03-28T00:00:00" StartActual="2026-03-28T00:00:00">
+      <Other Name="RankingDivisionId" Value="e7a44732-6c25-4c20-8424-eaf155027871" />
+    </Race>
+    <Race RaceID="34c61ae1-062b-49b8-abc4-4e775fbcfb70" RaceName="R6" RaceNumber="6" RaceStatus="finished" StartScheduled="2026-03-28T00:00:00" StartActual="2026-03-28T00:00:00">
+      <Other Name="RankingDivisionId" Value="e7a44732-6c25-4c20-8424-eaf155027871" />
+    </Race>
+    <Race RaceID="3b5be1d8-2354-4794-8f45-97dbeb1a587d" RaceName="R7" RaceNumber="7" RaceStatus="scheduled" StartScheduled="2026-03-29T00:00:00" StartActual="2026-03-29T00:00:00">
+      <Other Name="RankingDivisionId" Value="e7a44732-6c25-4c20-8424-eaf155027871" />
+    </Race>
+  </Regatta>
+</SailingXRR>

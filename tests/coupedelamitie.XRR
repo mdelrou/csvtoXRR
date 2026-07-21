@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<SailingXRR Version="1.0" Type="Inscriptions" Date="2026-01-18">
+  <Person PersonID="P_S_1" IFPersonID="ESTSP5" FamilyName="Parfenenko" GivenName="Sergey" NOC="EST" FFVLicenseNumber="ESTSP5" ClubName="KJK, Kalevi Jahtklubi"/>
+  <Person PersonID="P_C1_1" IFPersonID="GERVS16" FamilyName="Statsenko" GivenName="Vadim" NOC="EST" FFVLicenseNumber="GERVS16" ClubName="YCC, YACHT CLUB DE CANNES"/>
+  <Person PersonID="P_S_2" IFPersonID="FINLR2" FamilyName="RECHARDT" GivenName="Lauri" NOC="FIN" FFVLicenseNumber="Xxx" ClubName="HSK, Helsingfors Segelklubb"/>
+  <Person PersonID="P_C1_2" IFPersonID="(FRANG17)" FamilyName="Giraud" GivenName="Nicolas" NOC="FIN" FFVLicenseNumber="0761352A" ClubName="YCC, Yacht Club de Cannes"/>
+  <Person PersonID="P_S_3" IFPersonID="FINCB1" FamilyName="Borenius" GivenName="Christian" NOC="FIN" FFVLicenseNumber="FINCB2" ClubName="BS, Brändö Seglare"/>
+  <Person PersonID="P_C1_3" IFPersonID="FINCW1" FamilyName="Winter" GivenName="Chris" NOC="FIN" FFVLicenseNumber="FIN 85" ClubName="NJK, Nyländska Jaktklubben"/>
+  <Person PersonID="P_S_4" IFPersonID="FINKS18" FamilyName="Sjoberg" GivenName="Kristian" NOC="FIN" FFVLicenseNumber="na" ClubName="NJK, Nyländska Jaktklubben"/>
+  <Person PersonID="P_C1_4" IFPersonID="(FINSL1)" FamilyName="Lindberg" GivenName="Staffan" NOC="FIN" FFVLicenseNumber="000000" ClubName="ÅSS, Åländska Segelsällskapet"/>
+  <Person PersonID="P_S_5" IFPersonID="FRABG19" FamilyName="Blanc" GivenName="Gerard" NOC="FRA" FFVLicenseNumber="0514306L" ClubName="YCC, YACHT CLUB DE CANNES"/>
+  <Person PersonID="P_C1_5" IFPersonID="GBRMG63" FamilyName="Malcolm" GivenName="Green" NOC="FRA" FFVLicenseNumber="1186470G" ClubName="YCCannes"/>
+  <Person PersonID="P_S_6" IFPersonID="GBRDA6" FamilyName="atkinson" GivenName="david" NOC="GBR" FFVLicenseNumber="GBRDA6" ClubName="YCC, YACHT CLUB DE CANNES"/>
+  <Person PersonID="P_C1_6" IFPersonID="GBRSR9" FamilyName="ransom" GivenName="sandra" NOC="GBR" FFVLicenseNumber="GBR" ClubName="YCC, YACHT CLUB DE CANNES"/>
+  <Person PersonID="P_S_7" IFPersonID="IRLDM85" FamilyName="Murphy" GivenName="Daniel" NOC="IRL" FFVLicenseNumber="lRLDM85" ClubName="KYC, Kinsale Yacht Club"/>
+  <Person PersonID="P_C1_7" IFPersonID="IRLCG27" FamilyName="Good" GivenName="Cameron" NOC="IRL" FFVLicenseNumber="IRDCG27" ClubName="KYC, Kinsale Yacht Club"/>
+  <Person PersonID="P_S_8" IFPersonID="SUIFB17" FamilyName="Bopp" GivenName="François" NOC="SUI" FFVLicenseNumber="15744" ClubName="SNG, Société Nautique de Genève"/>
+  <Boat BoatID="B_EST_18" BoatName="Lark" SailNumber="EST 18" BoatModel="Dragon"/>
+  <Boat BoatID="B_FIN_63" BoatName="Nenya" SailNumber="FIN 63" BoatModel="Dragon"/>
+  <Boat BoatID="B_FIN_85" BoatName="Thouban" SailNumber="FIN 85" BoatModel="Dragon"/>
+  <Boat BoatID="B_FIN_95" BoatName="Emmy" SailNumber="FIN 95" BoatModel="Dragon"/>
+  <Boat BoatID="B_FRA_409" BoatName="Tsuica" SailNumber="FRA 409" BoatModel="Dragon"/>
+  <Boat BoatID="B_GBR_830" BoatName="Outlaw" SailNumber="GBR 830" BoatModel="Dragon"/>
+  <Boat BoatID="B_IRL_226" BoatName="FORTITUDE" SailNumber="IRL 226" BoatModel="Dragon"/>
+  <Boat BoatID="B_SUI_2" BoatName="CHOCOLATE" SailNumber="SUI 2" BoatModel="Dragon"/>
+  <Event CoID="COMP2026" EpID="1">
+    <Team BoatID="B_EST_18" NOC="EST">
+      <Crew PersonID="P_S_1" Position="S"/>
+      <Crew PersonID="P_C1_1" Position="C"/>
+    </Team>
+    <Team BoatID="B_FIN_63" NOC="FIN">
+      <Crew PersonID="P_S_2" Position="S"/>
+      <Crew PersonID="P_C1_2" Position="C"/>
+    </Team>
+    <Team BoatID="B_FIN_85" NOC="FIN">
+      <Crew PersonID="P_S_3" Position="S"/>
+      <Crew PersonID="P_C1_3" Position="C"/>
+    </Team>
+    <Team BoatID="B_FIN_95" NOC="FIN">
+      <Crew PersonID="P_S_4" Position="S"/>
+      <Crew PersonID="P_C1_4" Position="C"/>
+    </Team>
+    <Team BoatID="B_FRA_409" NOC="FRA">
+      <Crew PersonID="P_S_5" Position="S"/>
+      <Crew PersonID="P_C1_5" Position="C"/>
+    </Team>
+    <Team BoatID="B_GBR_830" NOC="GBR">
+      <Crew PersonID="P_S_6" Position="S"/>
+      <Crew PersonID="P_C1_6" Position="C"/>
+    </Team>
+    <Team BoatID="B_IRL_226" NOC="IRL">
+      <Crew PersonID="P_S_7" Position="S"/>
+      <Crew PersonID="P_C1_7" Position="C"/>
+    </Team>
+    <Team BoatID="B_SUI_2" NOC="SUI">
+      <Crew PersonID="P_S_8" Position="S"/>
+    </Team>
+  </Event>
+</SailingXRR>

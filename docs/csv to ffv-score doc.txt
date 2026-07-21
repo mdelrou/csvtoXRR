@@ -1,0 +1,40 @@
+Explications sur les changements :
+Structure Attributs : Votre XSD définit les données (comme FamilyName, SailNumber) comme des attributs (xs:attribute) et non comme des balises enfants. Le script utilise donc .set() pour respecter cela.
+
+Gestion des Personnes : Le script crée une entrée Person pour le skipper ET une pour l'équipier (Crew1), puis les lie au même bateau dans la section Event grâce à leurs IDs respectifs.
+
+Position : Conformément à l'énumération du XSD, le skipper est marqué Position="S" et l'équipier Position="C".
+
+Nettoyage du Genre : La fonction map_gender transforme vos données en "male" ou "female" pour éviter les erreurs de validation XSD.
+
+Comment l'utiliser :
+Installez Python si ce n'est pas fait.
+
+Enregistrez le script sous csv_to_ffv_xrr.py.
+
+Lancez-le : python csv_to_ffv_xrr.py.
+
+Le fichier inscriptions_finales.xrr produit sera prêt à être importé dans un logiciel compatible FFVoile. Est-ce que vous souhaitez que j'ajoute la gestion pour plus d'équipiers (Crew2, Crew3, etc.) ?
+
+Evolutions :
+
+gardez en tête ces trois piliers de conformité imposés par le schéma XSD :
+
+
+L'Ordre Séquentiel : Le fichier doit impérativement lister toutes les balises <Person>, puis toutes les balises <Boat>, et enfin l'élément <Event>.
+
+
+Les Attributs Obligatoires : Chaque personne doit posséder un identifiant unique (PersonID), un nom (FamilyName), un prénom (GivenName) et un code pays (NOC).
+
+
+La Structure du Team : Chaque entrée de course (Team) doit lier le bateau à ses membres d'équipage via des balises enfants <Crew>, en précisant la position "S" pour le skipper et "C" pour les équipiers.
++1
+
+Conseils pour vos prochains fichiers CSV :
+Multiples Équipiers : Si vous avez des fichiers avec 3 ou 4 équipiers, il suffira de dupliquer la logique "Crew 1" dans la boucle Python pour les colonnes "Crew2", "Crew3", etc.
+
+
+Données de Jauge : Si vous gérez des régates en temps compensé, vous pourrez ajouter les attributs de handicap comme BoatLoa ou BoatModel dans la balise <Boat>.
+
+
+Identifiants World Sailing : Pensez à bien mapper la colonne IFPersonID pour les régates internationales, cela facilite grandement le suivi des classements.
