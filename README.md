@@ -7,3 +7,5 @@ Par la suite le résultat général peut être saisi dans Score manuellement.
 Nous utilisions ManagetoSail pour tous les résultats intermédiaires. seul le final est envoyé à la FFV
 
 La procédure global  est dans le fichier csvtoXXRR doc.txt.
+Là dernière version a été la v8 ; depuis le projet est dans git; et donc csvtoxrr (ancienne v8) est la dernière version.
+
