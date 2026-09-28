@@ -14,8 +14,7 @@ Enregistrez le script sous csv_to_ffv_xrr.py.
 
 Lancez-le : python csv_to_ffv_xrr.py.
 
-Le fichier inscriptions_finales.xrr produit sera prêt à être importé dans un logiciel compatible FFVoile. Est-ce que vous souhaitez que j'ajoute la gestion pour plus d'équipiers (Crew2, Crew3, etc.) ?
-
+Le fichier inscriptions_finales.xrr produit sera prêt à être importé dans un logiciel compatible FFVoile. 
 Evolutions :
 
 gardez en tête ces trois piliers de conformité imposés par le schéma XSD :
