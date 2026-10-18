@@ -63,6 +63,45 @@ class XRRConverterApp(ctk.CTk):
         s = str(val).strip()
         return s if s else default
 
+    LICENSE_RE = re.compile(r'^\d{6,8}[A-Za-z]$')
+    DATE_RE = re.compile(r'^\d{1,2}[./]\d{1,2}[./]\d{4}$')
+
+    def parse_crew_line(self, line):
+        """Une ligne de 'Remaining Crew' ex: 'Jean-Marie Croyeau (M), SRA, 1013801T (FRA)'
+        -> (prenom, nom, licence, date_naissance) ou None."""
+        parts = [p.strip() for p in line.split(',') if p.strip()]
+        if not parts:
+            return None
+        name = re.sub(r'\([^)]*\)', '', parts[0]).strip()   # enleve (M), (W)...
+        if len(name) < 2 or "@" in name:
+            return None
+        licence, birth = "", ""
+        for extra in parts[1:]:
+            tok = re.sub(r'\([^)]*\)', '', extra).strip()      # '1561756E (FRA)' -> '1561756E'
+            if self.LICENSE_RE.match(tok):
+                licence = tok.upper()
+            elif self.DATE_RE.match(tok):
+                birth = self.format_date(tok)
+        words = name.split()
+        fn = words[0] if len(words) > 1 else "Equipier"
+        ln = " ".join(words[1:]) if len(words) > 1 else words[0]
+        return fn, ln, licence, birth
+
+    WS_ID_RE = re.compile(r'^[A-Za-z]{3}[A-Za-z]{1,3}\d{1,4}$')   # ex: GERJR69, NZLKK1
+
+    def map_gender(self, val):
+        v = str(val).strip().lower()
+        return {"male": "male", "female": "female", "non_binary": "non_binary"}.get(v, "")
+
+    def club_name(self, val):
+        """'YCC, YACHT CLUB DE CANNES' -> 'YACHT CLUB DE CANNES' ; sans virgule -> tel quel."""
+        v = str(val).strip()
+        return v.split(',', 1)[1].strip() if ',' in v else v
+
+    def ws_id(self, val):
+        v = str(val).strip()
+        return v.upper() if self.WS_ID_RE.match(v) else ""
+
     def format_date(self, date_str):
         if not date_str or len(str(date_str)) < 5: return ""
         date_part = str(date_str).split(' ')[0]
@@ -77,7 +116,7 @@ class XRRConverterApp(ctk.CTk):
         output_file = os.path.splitext(self.file_path)[0] + ".XRR"
 
         try:
-            with open(self.file_path, mode='r', encoding='latin-1') as f:
+            with open(self.file_path, mode='r', encoding='latin-1', newline='') as f:
                 reader = csv.DictReader(f, delimiter=';')
                 data_rows = [r for r in reader if r.get('Sail Number')]
 
@@ -87,7 +126,8 @@ class XRRConverterApp(ctk.CTk):
                 raw_sail = self.clean_val(row.get('Sail Number'), str(i))
                 clean_sail = "".join(filter(str.isalnum, raw_sail))
                 boat_id = f"B_{clean_sail}_{i}"
-                country = self.clean_val(row.get('Skipper Country'), "FRA")
+                country = (row.get('Represented Country') or row.get('Sail Number Country')
+                           or row.get('Skipper Country') or "FRA").strip().upper()
                 
                 crew_links = []
 
@@ -98,8 +138,12 @@ class XRRConverterApp(ctk.CTk):
                     "FamilyName": self.clean_val(row.get('Skipper LastName'), f"SKIPPER {clean_sail}").upper(),
                     "GivenName": self.clean_val(row.get('Skipper FirstName'), "Inconnu"),
                     "NOC": country,
-                    "FFVLicenseNumber": row.get('Skipper National ID', ''),
-                    "BirthDate": self.format_date(row.get('Skipper Date of Birth', ''))
+                    "FFVLicenseNumber": row.get('Skipper National ID', '').strip(),
+                    "BirthDate": self.format_date(row.get('Skipper Date of Birth', '')),
+                    "Gender": self.map_gender(row.get('Skipper Gender', '')),
+                    "IFPersonID": self.ws_id(row.get('Skipper ISAF', '')),
+                    "PassportPersonID": row.get('Skipper ID or Passport Nr.', '').strip(),
+                    "ClubName": self.club_name(row.get('Skipper Club', ''))
                 })
                 crew_links.append((sid, "S"))
 
@@ -113,23 +157,26 @@ class XRRConverterApp(ctk.CTk):
                         "FamilyName": self.clean_val(c1_lname, "INCONNU").upper(),
                         "GivenName": self.clean_val(c1_fname, "Equipier"),
                         "NOC": country,
-                        "FFVLicenseNumber": row.get('Crew1NationalID', '')
+                        "FFVLicenseNumber": row.get('Crew1NationalID', '').strip(),
+                        "BirthDate": self.format_date(row.get('Crew1 Birthday', '')),
+                        "Gender": self.map_gender(row.get('Crew1 Gender', '')),
+                        "IFPersonID": self.ws_id(row.get('Crew1 WS ID', '')),
+                        "PassportPersonID": row.get('Crew1 ID or Passport Nr.', '').strip(),
+                        "ClubName": self.club_name(row.get('Crew1 Club', ''))
                     })
                     crew_links.append((c1id, "C"))
 
-                # --- REMAINING CREW ---
+                # --- REMAINING CREW (un équipier par LIGNE dans le CSV) ---
                 rem = row.get('Remaining Crew', '')
                 if rem:
-                    members = [m.strip() for m in re.split(r'[,;]', str(rem)) if m.strip()]
-                    for idx, m_name in enumerate(members):
-                        if "@" in m_name or len(m_name) < 2: continue
+                    for idx, line in enumerate(re.split(r'[\r\n]+', str(rem))):
+                        parsed = self.parse_crew_line(line)
+                        if not parsed: continue
+                        fn, ln, lic, birth = parsed
                         rcid = f"P_RC_{i}_{idx}"
-                        # Split basique Prénom Nom
-                        parts = m_name.split()
-                        fn = parts[0] if len(parts) > 0 else "Equipier"
-                        ln = " ".join(parts[1:]) if len(parts) > 1 else "INCONNU"
                         all_persons.append({
-                            "PersonID": rcid, "FamilyName": ln.upper(), "GivenName": fn, "NOC": country
+                            "PersonID": rcid, "FamilyName": ln.upper()[:60], "GivenName": fn[:60],
+                            "NOC": country, "FFVLicenseNumber": lic, "BirthDate": birth
                         })
                         crew_links.append((rcid, "C"))
 
@@ -138,7 +185,9 @@ class XRRConverterApp(ctk.CTk):
                     "BoatID": boat_id,
                     "SailNumber": raw_sail,
                     "BoatName": self.clean_val(row.get('Boat Name'), f"BATEAU {raw_sail}"),
-                    "BoatModel": self.clean_val(row.get('Class'), "Dragon")
+                    "BoatModel": self.clean_val(row.get('Class'), "Dragon"),
+                    "BoatLoa": row.get('Boat Length', '').strip().replace(',', '.'),
+                    "BowNumber": row.get('Bow Number', '').strip()
                 })
                 all_teams.append({"BoatID": boat_id, "NOC": country, "Links": crew_links})
 
@@ -161,8 +210,9 @@ class XRRConverterApp(ctk.CTk):
 
             xml_str = ET.tostring(root, encoding='utf-8')
             pretty_xml = minidom.parseString(xml_str).toprettyxml(indent="  ")
-            with open(output_file, "w", encoding="utf-8") as out:
-                out.write(pretty_xml)
+            pretty_xml = pretty_xml.replace('<?xml version="1.0" ?>', '<?xml version="1.0" encoding="ISO-8859-1"?>', 1)
+            with open(output_file, "wb") as out:
+                out.write(pretty_xml.encode("iso-8859-1", errors="xmlcharrefreplace"))
             
             self.status_label.configure(text=f"✅ {len(all_teams)} Bateaux importés !", text_color="#4caf50")
 

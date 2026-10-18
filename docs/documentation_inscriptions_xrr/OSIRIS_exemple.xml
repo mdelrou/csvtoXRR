@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<SailingXRR>
+    <Person PersonID="128327_1069210L_" FamilyName="MARTINEZ" GivenName="JULIEN" NOC="FRA" Gender="male"
+            BirthDate="1983-08-04" FFVLicenseNumber="0561579D" />
+    <Person PersonID="128327_1056639R_FRAML101" FamilyName="MARTINEZ" GivenName="JULES" NOC="" Gender="male"
+            BirthDate="1955-01-01" FFVLicenseNumber="1277254Y" />
+    <Person PersonID="128327_1395644W_" FamilyName="LITOO" GivenName="PACO0" NOC="FRA" Gender="female"
+            BirthDate="1998-12-23" FFVLicenseNumber="1549657B" />
+    <Person PersonID="128327_1381809K_" FamilyName="TEST" GivenName="TEST" NOC="" FFVLicenseNumber="1553160A" />
+    <Boat BoatID="128327_FRA1727991_8" SailNumber="_1" BoatName="NUAGE II" BoatLoa="0" BoatModel="J97" OsirisGuest="true" />
+    <Boat BoatID="128327_FRA2791299_13" SailNumber="_2" BoatName="CAP OU PAS CAP" BoatLoa="100" BoatModel="A 35" />
+    <Event>
+        <Team TeamID="1" BoatID="128327_FRA1727991_8" NOC="FRA" Cat="Catégorie 1" EpBoatCode="OSIR" Remarks="Cette équipe est à importer en OSIRIS">
+            <Crew PersonID="128327_1069210L_" Position="S"/>
+            <Crew PersonID="128327_1056639R_FRAML101" Position="C"/>
+        </Team>
+        <Team TeamID="2" BoatID="128327_FRA2791299_13" NOC="FRA" Cat="Catégorie 2" EpID="287762">
+            <Crew PersonID="128327_1395644W_" Position="S"/>
+            <Crew PersonID="128327_1381809K_" Position="C"/>
+        </Team>
+    </Event>
+</SailingXRR>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<SailingXRR>
+    <Person PersonID="125038_1479243D_" FamilyName="MARTINEZ" GivenName="JULIEN" NOC="FRA" Gender="male"
+            BirthDate="1983-08-04" FFVLicenseNumber="0561579D" ClubCode="" ClubName=""
+            IFPersonID=""/>
+    <Person PersonID="125038_1425842C_GBRXB1" FamilyName="MARTINEZ" GivenName="JULES" NOC="" Gender="male"
+            BirthDate="1955-01-01" FFVLicenseNumber="1277254Y" ClubCode="" ClubName="" IFPersonID="FRAML101"/>
+    <Person PersonID="125038_1345537B_" FamilyName="LITO" GivenName="PACO" NOC="FRA" Gender="male"
+            BirthDate="1998-02-23" FFVLicenseNumber="1549657B" />
+
+    <Boat BoatID="125038_209938_1" SailNumber="209938" BoatName="" BowNumber="1"/>
+    <Boat BoatID="125038_221676_2" SailNumber="221676" BoatName="" BowNumber="2"/>
+    <Boat BoatID="125038_194353_3" SailNumber="194353" BoatName="" BowNumber="3"/>
+    <Event CoID="133419">
+        <Team TeamID="1" BoatID="125038_209938_1" NOC="FRA" Cat="Catégorie 1" Ranking="2" EpBoatCode="420">
+            <Crew PersonID="125038_1479243D_" Position="S"/>
+        </Team>
+        <Team TeamID="2" BoatID="125038_221676_2" NOC="FRA" Cat="Catégorie 2" Ranking="1" EpID="285877">
+            <Crew PersonID="125038_1425842C_GBRXB1" Position="S"/>
+        </Team>
+        <Team TeamID="3" BoatID="125038_194353_3" NOC="FRA" Cat="Catégorie 1">
+            <Crew PersonID="125038_1345537B_" Position="S"/>
+        </Team>
+    </Event>
+</SailingXRR>

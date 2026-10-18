@@ -1,0 +1,95 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Type for sailor gender -->
+    <xs:simpleType name="genderType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value=""/>
+            <xs:enumeration value="male"/>
+            <xs:enumeration value="female"/>
+            <xs:enumeration value="non_binary"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Type for sailor position in the boat, the first sailor is always the skipper -->
+    <xs:simpleType name="sailorPositionType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="S"/> <!-- Skipper -->
+            <xs:enumeration value="C"/> <!-- Regular crew -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Type for sailor data -->
+    <xs:complexType name="personType">
+        <xs:attribute name="PersonID" type="xs:string" use="required"/>     <!-- UNIQUE FFV id. Mandatory. Generated with the event CoID, the FFVLicenseNumber and IFPersonID, if there isn't a FFVLicenseNumber, an index will be assigned -->
+        <xs:attribute name="IFPersonID" type="xs:string"/>                  <!-- World Sailing id -->
+        <xs:attribute name="FamilyName" type="xs:string" use="required"/>   <!-- NOM in France -->
+        <xs:attribute name="GivenName" type="xs:string" use="required"/>    <!-- PRENOM in France -->
+        <xs:attribute name="NOC" type="xs:string" use="required"/>          <!-- Country code -->
+        <xs:attribute name="Gender" type="genderType" />                    <!-- Gender -->
+        <xs:attribute name="ClassPersonID" type="xs:string"/>               <!-- Class person ID -->
+        <xs:attribute name="PassportPersonID" type="xs:string"/>            <!-- Personal ID number (like passport number) -->
+        <xs:attribute name="BirthDate" type="xs:string" />                  <!-- Birthdate (YYYY-MM-DD) -->
+        <xs:attribute name="FFVLicenseNumber" type="xs:string"/>            <!-- FFV license number -->
+        <xs:attribute name="ClubCode" type="xs:string"/>                    <!-- FFV structure code -->
+        <xs:attribute name="ClubName" type="xs:string"/>                    <!-- FFV structure name -->
+    </xs:complexType>
+
+    <!-- Type for boat data -->
+    <xs:complexType name="boatType">
+        <xs:attribute name="BoatID" type="xs:string" use="required"/>           <!-- UNIQUE FFV id. Mandatory. Generated with the event CoID and the SailNumber -->
+        <xs:attribute name="BoatName" type="xs:string" use="required"/>         <!-- Name of the boat -->
+        <xs:attribute name="SailNumber" type="xs:string" use="required"/>       <!-- Sail number -->
+        <xs:attribute name="BowNumber" type="xs:string"/>                       <!-- Bow number -->
+        <xs:attribute name="BoatModel" type="xs:string"/>                           <!-- Handicap serie -->
+        <xs:attribute name="BoatLoa" type="xs:string"/>                         <!-- Boat loa -->
+        <xs:attribute name="OsirisGuest" type="xs:boolean"/>                    <!-- Whether a boat is a OSIRIS guest boat or not  -->
+    </xs:complexType>
+
+    <!-- Type for boat crew. It links a sailor and its boat position -->
+    <xs:complexType name="crewType">
+        <xs:attribute name="PersonID" type="xs:string" use="required"/>     <!-- UNIQUE FFV id. Mandatory. Generated with the event CoID, the FFVLicenseNumber and IFPersonID, if there isn't a FFVLicenseNumber, an index will be assigned -->
+        <xs:attribute name="Position" type="sailorPositionType" use="required"/>
+    </xs:complexType>
+
+    <!-- Type for entries. It links boats and its crew -->
+    <xs:complexType name="teamType">
+        <!-- Each entry has one or more sailors -->
+        <xs:sequence>
+            <xs:element name="Crew" type="crewType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+
+        <xs:attribute name="TeamID" type="xs:string"/>      <!-- UNIQUE FFV id. ??? -->
+        <xs:attribute name="BoatID" type="xs:string"/>      <!-- Entry boat -->
+        <xs:attribute name="NOC" type="xs:string"/>         <!-- Entry country -->
+        <xs:attribute name="Cat" type="xs:string"/>         <!-- Entry category -->
+        <xs:attribute name="Ranking" type="xs:string"/>     <!-- Ranking -->
+        <xs:attribute name="EpBoatCode" type="xs:string"/>     <!-- EpBoatCode -->
+        <xs:attribute name="Remarks" type="xs:string"/>     <!-- Remarks -->
+        <xs:attribute name="EpID" type="xs:string"/>     <!-- EpID -->
+    </xs:complexType>
+
+    <!-- Type for event (ffv competition) -->
+    <xs:complexType name="eventType">
+        <!-- Sequence of teams (entries) for the event -->
+        <xs:sequence>
+            <xs:element name="Team" type="teamType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+        <xs:attribute name="CoID" type="xs:string" />  <!-- UNIQUE FFV id. Competition ID. -->
+        <xs:attribute name="EpID" type="xs:string"/>   <!-- UNIQUE FFV trial id. Epreuve ID. -->
+    </xs:complexType>
+
+    <!-- Root element that encapsulates everything -->
+    <xs:element name="SailingXRR">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Person" type="personType" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element name="Boat" type="boatType" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element name="Event" type="eventType" minOccurs="1" maxOccurs="1" />
+            </xs:sequence>
+            <xs:attribute name="Version" type="xs:string" />
+            <xs:attribute name="Type" type="xs:string" />
+            <xs:attribute name="Date" type="xs:date" />
+            <xs:attribute name="Time" type="xs:time" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
