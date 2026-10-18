@@ -1,0 +1,12 @@
+Dans le répertoire Projects\csvtoXRR :
+ .\.venv\Scripts\Activate.ps1
+ .\.venv\Scripts\python.exe -m PyInstaller --clean `
+  --distpath "C:\Users\miche\Builds\csvtoXRR" `
+  --workpath "C:\Users\miche\Builds\csvtoXRR\build" `
+  .\csvtoxrr.spec
+
+  Le csvtoXRR.exe est créé dans le répertoire Builds
+
+  Préalablement il faut avoir installer  dans son .env  :
+  .\.venv\Scripts\python.exe -m pip install customtkinter pyinstaller tkinter
+
